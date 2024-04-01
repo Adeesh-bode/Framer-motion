@@ -19,7 +19,7 @@ const App = () => {
 
       <motion.div className='flex justify-between items-center text-2xl md:text-4xl gap-3 md:gap-5'>
         <span className='text-purple-400 '>Framer Motion</span>
-        <motion.span drag whileHover={{scale:1.3, rotate:90}} > ⚛️</motion.span>
+        <motion.span drag whileHover={{scale:1.3, rotate:90}} dragSnapToOrigin  > ⚛️</motion.span>
         <span className='text-sky-500'>React</span>
       </motion.div>
       
